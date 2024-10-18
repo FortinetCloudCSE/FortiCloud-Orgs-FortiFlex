@@ -1,7 +1,7 @@
 ---
-title: "Ch 2 Hugo Content Structure"
+title: "FortiFlex"
 chapter: false
-linkTitle: "Ch 2: Hugo Content"
+linkTitle: "FortiFlex"
 weight: 20
 ---
 

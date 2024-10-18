@@ -1,36 +1,30 @@
 {
-  "repoName":"UserRepo",
+  "repoName":"FortiCloud-Orgs-FortiFlex",
   "author":"Jeff Kopko",
-  "workshopTitle":"Hugo for Fortinet TECWorkshops",
+  "workshopTitle":"FortiCloud Organizations & FortiFlex",
   "themeVariant":"Workshop",
-  "logoBannerText":"",
-  "logoBannerSubText":"",
+  "logoBannerText":"FortiCloud",
+  "logoBannerSubText":"Orgs & FortiFlex",
   "errorLevel":"warning",
   "googleServicesID":"G-5RZBH288ST",
   "shortcuts": [
   {
     "text": "Fortinet Cloud CSE GitHub Org",
     "URL": "https://github.com/FortinetCloudCSE",
-    "icon": "fa-tools-cap",
+    "icon": "fa-graduation-cap",
     "weight":10
   },
   {
-    "text": "Fortinet Standard Workshop Guide",
-    "URL": "https://fortinetcloudcse.github.io/UserRepo",
-    "icon": "fa-tools-cap",
+    "text": "FortiCloud Organizations Docs",
+    "URL": "https://docs.fortinet.com/document/forticloud/24.3.a/organization-portal/473091/overview-of-creating-and-managing-organizations",
+    "icon": "fa-tools",
     "weight":20
   },
   {
-    "text": "Fortinet Standard Workshop Template Repo",
-    "URL": "https://github.com/FortinetCloudCSE/UserRepo",
-    "icon": "fa-tools-cap",
+    "text": "FortiFlex API examples",
+    "URL": "https://github.com/FortinetCloudCSE/fortiflexvm-api",
+    "icon": "fa-tools",
     "weight":30
-  },
-  {
-    "text": "Fortinet Hugo reLearn theme - Guide",
-    "URL": "https://mcshelby.github.io/hugo-theme-relearn/index.html",
-    "icon": "fa-tools-cap",
-    "weight":40
   }
   ]
 }

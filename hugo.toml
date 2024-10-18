@@ -1,7 +1,7 @@
 # this is a required setting for this theme to appear on https://themes.gohugo.io/
 # change this to a value appropriate for you; if your site is served from a subdirectory
 # set it like "https://example.com/mysite/"
-baseURL = "https://fortinetcloudcse.github.io/UserRepo"
+baseURL = "https://fortinetcloudcse.github.io/FortiCloud-Orgs-FortiFlex"
 
 languageCode = "en-US"
 defaultContentLanguage = "en"
@@ -23,7 +23,7 @@ uglyURLs = true     # true -> basic/index.html -> basic.html
 # use this theme ;-)
 theme = ["hugo-theme-relearn"]
 
-title = "Hugo for Fortinet TECWorkshops"
+title = "FortiCloud Organizations & FortiFlex"
 
 # We disable this for testing the exampleSite; you must do so too
 # if you want to use the themes parameter disableGeneratorVersion=true;
@@ -63,8 +63,8 @@ enableEmoji = true
     # - set the following `style` to a predefined style name
     # - remove the `@import` of the self-defined chroma stylesheet from your CSS files
     #   (here eg.: theme-relearn-light.css / theme-relearn-dark.css)
-    noClasses = false
-    style = "native"
+    noClasses = true
+    style = "catppuccin-latte"
 
   [markup.goldmark.renderer]
     # activated for this showcase to use HTML and JavaScript; decide on your own needs;
@@ -77,18 +77,18 @@ enableEmoji = true
 
 [params]
   # Change default color scheme with a variant
-  # Fortinet specific variants are: "Workshop", "UseCase", "Demo", "Spotlight", "FortinetSilver", "FortinetTeal".  These change the top left logo background & add Text under the Logo
+  # Fortinet specific variants are: "Workshop", "UseCase", "Demo", "Spotlight", "FortinetSilver", "FortinetTeal", "Xperts2024".  These change the top left logo background & add Text under the Logo
   # For added variants, please contact fortinetcloudcse@fortinet.com
   themeVariant = "Workshop"
-
-  bannerLine1 = "Public Cloud 201:"
-  bannerLine2 = "Advanced FortiGate Deployments on AWS"
-  bannerline3 = "TGW &amp; GWLB"
 
   #Optional, By Default, the logo banner will match the Text from themeVariant Above
   # If you would like to change the primary logo banner text, uncommenet logoBannerText Parameter and set to desired text.
   
+  logoBannerText = "FortiCloud"
+  
   # Optional: If you'd like additional logo sub text/descriptions, use logoBannerSubText Parameter.  leave empty string to omit: ""
+  
+  logoBannerSubText = "Orgs & FortiFlex"
   
 
   # Shows a checkmark for visited pages on the menu
@@ -188,21 +188,16 @@ enableEmoji = true
 
 
 [[menu.shortcuts]]
-name = "<i class='fas fa-tools-cap'></i> Fortinet Cloud CSE GitHub Org"
+name = "<i class='fas fa-graduation-cap'></i> Fortinet Cloud CSE GitHub Org"
 url = "https://github.com/FortinetCloudCSE"
 weight = 10
 
 [[menu.shortcuts]]
-name = "<i class='fas fa-tools-cap'></i> Fortinet Standard Workshop Guide"
-url = "https://fortinetcloudcse.github.io/UserRepo"
+name = "<i class='fas fa-tools'></i> FortiCloud Organizations Docs"
+url = "https://docs.fortinet.com/document/forticloud/24.3.a/organization-portal/473091/overview-of-creating-and-managing-organizations"
 weight = 20
 
 [[menu.shortcuts]]
-name = "<i class='fas fa-tools-cap'></i> Fortinet Standard Workshop Template Repo"
-url = "https://github.com/FortinetCloudCSE/UserRepo"
+name = "<i class='fas fa-tools'></i> FortiFlex API examples"
+url = "https://github.com/FortinetCloudCSE/fortiflexvm-api"
 weight = 30
-
-[[menu.shortcuts]]
-name = "<i class='fas fa-tools-cap'></i> Fortinet Hugo reLearn theme - Guide"
-url = "https://mcshelby.github.io/hugo-theme-relearn/index.html"
-weight = 40
