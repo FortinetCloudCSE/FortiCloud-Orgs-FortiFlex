@@ -5,7 +5,6 @@ archetype: "home"
 description: "FortiCloud MSSP Multitenancy & FortiFlex"
 ---
 
-{{< launchdemoform >}}
 
 ### Welcome!
 
